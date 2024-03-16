@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(36, 34, 34);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.input1{
+    width: 70%;
+    height: 60px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 20%;
+    margin-left: 15%;
+    position: absolute;
+    
+}
+.img1{
+    border-radius: 100px;
+    text-align: center;
+    
+}
+.go{
+    margin-top: 20%;
+}
+.before{
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 50px;
+}
+.btn1{
+    width: 12%;
+    height: 50px;
+    border-radius: 60px;
+    border: none;
+    background-color: rgb(27, 196, 131);
+    color: white;
+    margin-left: 72%;
+    position: relative;
+    margin-top: 22%;
+
+
+}
+.exit{
+    width: 10%;
+    height: 40px;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 50px;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 0pc 0px 03px 0px rgb(212, 212, 212); 
+}
+.svg1{
+    width: 80%;
+    height: 40px;
+}

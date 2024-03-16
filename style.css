@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
+.home{
+    margin-top: 6%;
+    margin-left: 4%;
+}
+.input1{
+    width: 65%;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(239, 239, 240);
+    text-align: center;
+    margin-left: 07%;
+    position: absolute;
+    top: 3%;
+}
+.btn5{
+    
+    border: none;
+    font-family: "poppins",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 245, 245);
+}
+.img2{
+    border-radius: 50%;
+    position: absolute;
+    left: 80%;
+    top: 3%;
+}
+.svg1{
+    position: absolute;
+    left:61.5%;
+    top: 3.8%;
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(255, 255, 255);
+    border-radius: 50px;
+}
+.align1{
+    margin-top: 30%;
+}
+.search2{
+    width: 65%;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(239, 240, 241);
+    text-align: center;
+    margin-top: 10%;
+    position: absolute;
+    margin-left: 8%;
+}
+.svg2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 78%;
+    margin-top: 10%;
+    border: solid;
+    height: 54px;
+    width: 13%;
+    border: none;
+    box-shadow: 0px 0px 10px 0px rgb(197, 197, 197);
+}
+.display{
+    width: 85%;
+    text-align: center;
+    height: 320px;
+    margin-left: 7%;
+    border-radius: 30px;
+    margin-top: 10%;
+    background-color: rgb(231, 231, 231);
+}
+.img4{
+ 
+    padding: 15%;
+    width: 50%;
+    text-align: center;
+}
+.row1{
+    display: flex;
+    margin-left: 2%;
+}
+.box{
+    width: 25%;
+    margin-left: 6%;
+    margin-top: 8%;
+    border-radius: 20px;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(208, 210, 212);
+}
+.menu_bar{
+    position: fixed;
+    width: 60%;
+    height: 440px;
+    background-color: rgb(245, 245, 245);
+    top: 12%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgb(201, 201, 201);
+    left: 36%;
+
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    border: solid transparent;
+    border-radius: 30px;
+    width: 80%;
+    color: rgb(53, 55, 58);
+    background-color: rgb(66, 236, 157);
+    margin-left: 10%;
+
+}
+.ico{
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.img3{
+    border-radius: 30px;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    margin-left: 10%;
+    margin-top: 0%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.icos{
+    margin-top: 7.5%;
+    margin-left: 1%;
+}
+.line{
+    border: solid rgb(207, 206, 206) 1px;
+}
+.last-line{
+    display: flex;
+    gap: 30px;
+}
+.lico{
+    margin-top: 5%;
+    margin-left: 8%;
+}
+#menu{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+.text6{
+    font-family: "poppins",sans-serif;
+    font-weight: 300;
+    margin-left: 10%;
+    font-size: 20px;
+    position: absolute;
+    top: 1%;
+
+}
+@keyframes animationName1 {
+                      
+    0% { background-position: 0% 50%; }
+                      
+    50% { background-position: 200% 250%; }
+                      
+    100% { background-position: 0% 50%; }
+
+}
+.anime{
+    background: linear-gradient(90deg, #c91e1e 0%, #3246ff 100%); 
+    background-size: 400% 400%;
+    animation:animationName1 3.5s ease infinite ;
+    height: 5px;
+    margin-top: 14%;
+    width: 50%;
+    border-radius: 30px;
+    top: 1%;
+    margin-left: 8%;
+    position: absolute;
+}
